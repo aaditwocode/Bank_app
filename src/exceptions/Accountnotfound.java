@@ -1,7 +1,7 @@
-package exception;
+package exceptions;
 
 public class Accountnotfound extends RuntimeException {
-    public AccountNotFoundException(String message) {
+    public Accountnotfound(String message) {
         super(message);
     }
 }
